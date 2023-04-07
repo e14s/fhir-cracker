@@ -1,0 +1,19 @@
+{
+  "resourceType": "Observation",
+  "status": "final",
+  "code": {
+    "coding": [
+      {
+        "system": "http://loinc.org",
+        "code": "69447-9",
+        "display": "Atrial fibrillation"
+      }
+    ],
+    "text": "Atrial fibrillation"
+  },
+  "subject": {
+    "reference": "Patient/123"
+  },
+  "valueBoolean": true,
+  "effectiveDateTime": "2022-02-15T13:30:00-05:00"
+}
