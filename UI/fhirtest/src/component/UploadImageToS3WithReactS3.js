@@ -8,8 +8,8 @@ window.Buffer = window.Buffer || require("buffer").Buffer;
 
 const S3_BUCKET ='fhir-cracker-file-upload';
 const REGION ='us-east-1';
-const ACCESS_KEY ='AKIAQZDWVACCQJSAGSVG';
-const SECRET_ACCESS_KEY ='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';
+const ACCESS_KEY = 'ACCESS_KEY';
+const SECRET_ACCESS_KEY ='SECRET_ACCESS_KEY';
 
 const config = {
     bucketName: S3_BUCKET,
