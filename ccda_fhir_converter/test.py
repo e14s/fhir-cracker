@@ -1,0 +1,3 @@
+from initial_ccda_fhir_converter import initial_ccda_fhir_converter
+
+initial_ccda_fhir_converter("Aaron697_Brekke496_real.xml")
