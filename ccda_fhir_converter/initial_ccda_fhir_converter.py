@@ -6,7 +6,7 @@ from fhir.resources.observation import Observation
 from datetime import datetime
 import json
 
-def ccda_to_fhir(file):
+def initial_ccda_fhir_converter(file):
     """
         This function extracts aspects of the Patient, Encounter, and Observations components 
         from C-CDA File and converts it into FHIR objects. From here, the FHIR objects are
@@ -117,5 +117,5 @@ def ccda_to_fhir(file):
         bundle.entry.append(entry)
 
     # Write bundle to json file
-    with open('test.json', 'w') as f:
+    with open('Aaron697_Brekke496_test_results.json', 'w') as f:
         f.write(bundle.json())
